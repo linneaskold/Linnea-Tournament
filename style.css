@@ -1,0 +1,101 @@
+body
+{
+    margin:0px;
+    background-color:#332E2E;
+}
+
+#top
+{
+    background-color: black;
+    height:100px;
+
+}
+
+#topmiddle
+{
+    padding-left:190px;
+    font-size: 30px;
+    color:white;
+    position:relative;
+    top:-70px;
+    text-indent:80px;
+    letter-spacing: 3px;
+   
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background:gray;
+
+}
+
+
+
+#login
+{
+    background-color: red;
+    cursor:pointer;
+    font-size:18px;
+    color: #ffffff;
+    width:100px;
+    height: 40px;
+    border-color: darkred;
+    position: relative;
+    top: -99px;
+    left: 1150px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 2%;
+
+}
+
+#schedule
+{
+    border-style: solid;
+    background-color:black;
+    width:1128px;
+    position: relative;
+    left:30px;
+    top:30px;
+
+}
+
+td{
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+th{
+    background-color: white;
+    padding: 5px;
+}
+
+#point
+{
+    background-color: black;
+    width: 452px;
+    
+    position:relative;
+    left:30px;
+    top:60px;
+
+}
+
+#picture
+{
+    position:relative;
+    margin: 0 auto;
+    text-align: right;
+    right:101.5px;
+    bottom:195px;
+    
+}
+
+
+
