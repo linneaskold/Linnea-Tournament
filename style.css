@@ -1,16 +1,41 @@
+
+
+/*
+margin skappar mellanrum
+background-color byter bakgrundsfärg
+width besämer hur bred den är horizontelt
+height bestämmer höjden, vertikalt
+padding top lägger till mellanrum till den övre delen
+color ändrar färg på texten
+font size ändrar storleken på texten, fonten
+textdecoration: none tar bart decorativa saker från text
+padding generelt lägger till mellanrum
+cursor ändrar hur muspekaren ser ut när man hoverar över något
+postion relative hjälper till så att jag kan flytta elementen up, ner och till sidorna
+text indent används för att lägga till indrag framför texten
+letter spacing används för att öka eller minska mellanrum mellan bokstäver, tecken
+border color ändrar färg på elementets kantlinje
+border radius används för att runda kanter
+border style solid gör en heldragen linje runt ett element
+
+
+*/
+
+/*Dehär stylar kroppen*/
 body
 {
     margin:0px;
     background-color:#332E2E;
 }
 
+/*här är delen som är högst up*/
 #top
 {
     background-color: black;
     height:100px;
 
 }
-
+/*Här är mitten delen högst up*/
 #topmiddle
 {
     padding-left:190px;
@@ -23,6 +48,7 @@ body
    
 }
 
+/*Det här under stylar mina länkar högst up*/
 a
 {
     color:white;
@@ -36,7 +62,7 @@ a:hover{
 }
 
 
-
+/*Dehär stylar knappen*/
 #login
 {
     background-color: red;
@@ -55,6 +81,7 @@ a:hover{
 
 }
 
+/*Dehär stylar min schedule*/
 #schedule
 {
     border-style: solid;
@@ -66,16 +93,19 @@ a:hover{
 
 }
 
+/*Dehär stylar min table data*/
 td{
     border: 1px solid #dddddd;
     background-color: white;
 }
 
+/*Dehär stylar min table header*/
 th{
     background-color: white;
     padding: 5px;
 }
 
+/*Dehär stylar points*/
 #point
 {
     background-color: black;
@@ -87,6 +117,7 @@ th{
 
 }
 
+/*Dehär stylar min bild*/
 #picture
 {
     position:relative;
@@ -96,6 +127,65 @@ th{
     bottom:195px;
     
 }
+
+/*Dehär stylar rules*/
+#rules
+{
+    background-color: white;
+    color:black;
+    position:relative;
+    left:30.5px;
+    bottom:180px;
+    width:450px;
+
+}
+
+/*Dehär stylar mina h2*/
+h2
+{
+    position:relative;
+    left:24px;
+    top:11px;
+
+}
+
+/*Dehär stylar resultat*/
+#results
+{
+    background-color: white;
+    position: relative;
+    width:630px;
+    bottom:340px;
+    left:533.5px;
+}
+
+/*Alla här under är resultatrader som jag stylar i två olika färger varanan*/
+#results1
+{
+    background-color: grey;
+}
+
+#results2
+{
+    background-color: darkgrey;
+}
+
+#results3
+{
+    background-color: grey;
+}
+
+#results4
+{
+    background-color:darkgrey;
+}
+
+/*Dehär göra mina bold röda och lägger till mellanrum*/
+b{
+    color:red;  
+    padding:180px;
+}
+
 
 
 

@@ -1,19 +1,25 @@
 <!Doctype HTML>
 <html lang="en">
 <head>
+    <!--I head finns metadata, alltså informationen om själva webbsidan-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Den ovanför tror jag gör så att hemsidan anpassar sig till vad för device man är inne på -->
     <title>VCL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--Här under startar bodyn som har innehållet som vi ser på webbsidan-->
 <body>
     <div id="wrapper">
+<!--Här under så börjar själva delen som är högst uppe med loggor, länkar till sidor och en loggin knapp-->
         <div id="top">
             <div id="topleft" style="vertical-align: top;">
                 <img src="c:\Users\linnea.skold\Desktop\Tournament\bilder\971c3fd6-9150-40f3-bcf8-78a4d89bbdba.png" style="vertical-align: top;", width="100", height="100">
                 <img src="c:\Users\linnea.skold\Desktop\Tournament\bilder\1471fcdd-c5dc-4729-b296-6aa3b863bce0.png" style="vertical-align: top;", width="100", height="100">
             </div>
+<!--Div grupperar så man kan styla allt inom samtidigt i css-->
+<!--Här under har jag länkar som finns högst-->
             <div id="topmiddle">
                 <a href="#">Home</a>
                 <span class="divider">|</span>
@@ -21,9 +27,9 @@
                 <span class="divider">|</span>
                 <a href="#">Pick´ems</a>
                 <span class="divider">|</span>
-                <a href="#">news</a>
+                <a href="#">News</a>
                 
-
+<!--Här under har jag en knapp-->
             </div>
             <div id="topright">
                 <button id="login">Login</button>
@@ -36,8 +42,15 @@
 
 
 
-    <!-- team schedule-->
+    <!-- Här börjar delen som är under topdelen alltså typ innehållet-->
     <div id="under">
+    <!--Här under har jag själva schemat för matcherna i ett table och vem som ska spela och namnen i tiderna-->
+    <!--td betyder table data och där finns inehållet
+    tr betyder table row och lägger till en rad
+    th betyder table header det är en rubrik för en grupp i tabelen
+    ul betyder unordered list och gör en oordnad list
+    li är innehållet i listan.
+    -->
         <div id="schedule">
             <table>
                 <tr>
@@ -142,7 +155,7 @@
 
             
         </div>
-
+<!--Här under är ett table för en tabell med standing, points, lagnamn och winster och förluster, jag använder div för att gruppera in sakerna för att style i css.-->
         <div id="point">
             <table>
                 <tr>
@@ -211,12 +224,52 @@
               </table>
     
         </div>
-
+<!--Här är bilden som är bredvid tabellen imitten-->
         <div id="picture">
             <img src="c:\Users\linnea.skold\Desktop\Tournament\bilder\0425bdd1-0918-4dba-b5bd-0c06c0fed00c.png" width="630", height="252">
 
         </div>
+<!--Här är ett table för tabellen med reglerna som är i en ordnad lista från  ett till fem-->
+        <div id="rules">
+            <h2>Rules</h2>
+            <ol>
+                <li>Each team has 5 players</li>
+                <li>First to win 13 rounds wins the match</li>
+                <li>Tied matches go overtime and you need to win by 2 rounds</li>
+                <li>It must be fair play</li>
+                <li>Toxic behavior is not allowed</li>
+            </ol>
+        </div>
+<!--Här har jag det som ska vara resultaten för de senaste matcherna i divs och där poängen är skrivna i bold alltså tjockmarkerd text-->
+    <div id="results">
+        <h1>Match results</h1>
 
+        <div id="results1">
+            Crimson Wolves
+            <b>2 - 1</b>
+            Phantom Esports
+        </div>
+
+        <div id="results2">
+            Inferno Five      
+            <b>2 - 1</b> 
+            Neon Reapers
+        </div>
+
+        <div id="results3">
+            Zero Recoil
+            <b>2 - 1</b>
+            Voltage
+        </div>
+
+        <div id="results4">
+            Redline Gaming
+            <b>2 - 1</b>
+            Silent Killers
+        </div>
+
+        
+        
 
     </div>
 
